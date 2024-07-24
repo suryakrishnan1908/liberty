@@ -1,12 +1,11 @@
-<!DOCTYPE html>
-<title>
-    resume
-</title>
 <html>
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-
-
+.container {
+  position: relative;
+  width: 50%;
+}
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
@@ -22,10 +21,54 @@ td, th {
 tr:nth-child(even) {
   background-color: #dddddd;
 }
+
+.image {
+  opacity: 1;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #0adef6;
+  color: rgb(255, 255, 255);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  padding: 16px 32px;
+}
 </style>
 </head>
 <body>
 
+<CENTER>
+
+<div class="container">
+    <a href="https://suryakrishnan1908.github.io/liberty/img.jpg">
+  <img src="https://static.vecteezy.com/system/resources/thumbnails/002/318/271/small_2x/user-profile-icon-free-vector.jpg" alt="Avatar" height="200cm" width="200cm" class="image" ></a>
+
+  <div class="middle">
+    <div class="text">RESUME</div>
+  </div>
+</div>
+</CENTER>
 
 
     <CENTER>
@@ -33,12 +76,7 @@ tr:nth-child(even) {
         <H2>DOB :  03/09/2004</H2>
 
 
-        <P>
-            <a href="https://suryakrishnan1908.github.io/liberty/img.jpg">
-        
-            <img src="https://img.freepik.com/premium-vector/account-icon-user-icon-vector-graphics_292645-552.jpg" height="200cm" width="200cm">
-            </a>
-        </P>
+       
 
         <h2>EDUCATION</h2>
     </CENTER>
@@ -77,5 +115,6 @@ tr:nth-child(even) {
     <img src="https://yt3.googleusercontent.com/ccPr80rfkOgsE0TMP8S8vEfP85gl12XzUGtySPFFYNMhxlQ62W7ijksmUIXv6fCBC1jBmoEqaA=s900-c-k-c0x00ffffff-no-rj" height="50cm" width="50cm">
 </a>
 </center>
+  
 </body>
 </html>
