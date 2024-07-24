@@ -6,6 +6,10 @@
   position: relative;
   width: 50%;
 }
+.you {
+  position: relative;
+  width: 50%;
+}
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
@@ -39,16 +43,31 @@ tr:nth-child(even) {
   text-align: center;
 }
 
+
 .container:hover .image {
+  opacity: 0.3;
+}
+.you:hover .image {
   opacity: 0.3;
 }
 
 .container:hover .middle {
   opacity: 1;
 }
+.you:hover .middle {
+  opacity: 1;
+}
 
 .text {
   background-color: #0adef6;
+  color: rgb(255, 255, 255);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+.subs {
+  background-color: #ed0000;
   color: rgb(255, 255, 255);
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 16px;
@@ -111,9 +130,15 @@ tr:nth-child(even) {
 
 <center>
     <h3>YOUTUBE CHANNEL</h3>
+    <div class="container">
+
     <a href="https://youtube.com/@lucidcreation1908?si=wkfjuZKHkxVGiJan">
-    <img src="https://yt3.googleusercontent.com/ccPr80rfkOgsE0TMP8S8vEfP85gl12XzUGtySPFFYNMhxlQ62W7ijksmUIXv6fCBC1jBmoEqaA=s900-c-k-c0x00ffffff-no-rj" height="50cm" width="50cm">
+    <img src="https://yt3.googleusercontent.com/ccPr80rfkOgsE0TMP8S8vEfP85gl12XzUGtySPFFYNMhxlQ62W7ijksmUIXv6fCBC1jBmoEqaA=s900-c-k-c0x00ffffff-no-rj" height="100cm" width="100cm">
 </a>
+<div class="middle">
+    <div class="subs">SUBSCRIBE</div>
+  </div>
+</div>
 </center>
   
 </body>
