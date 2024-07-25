@@ -1,7 +1,13 @@
+html{
+  background-color: #486a96;
+}
 body{
     padding-left: 30%;
     padding-right: 30%;
-}
+    background-repeat: no-repeat;
+background-color: #c5e9ed;
+margin: 70px;
+margin-co}
 
 .container {
     position: relative;
@@ -10,12 +16,12 @@ body{
   
   .table {
     font-family: arial, sans-serif;
-    border-collapse: collapse;
     margin: 300px;
+    border-color: black;
   }
   
   td, th {
-    border: 1px solid #dddddd;
+    border: 1px solid #000000;
     text-align: left;
   }
   
@@ -59,7 +65,7 @@ body{
     color: rgb(255, 255, 255);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 16px;
-    padding: 16px 32px;
+    padding: 5px 10px;
   }
   </style>
   </head>
