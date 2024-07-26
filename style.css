@@ -3,7 +3,7 @@ html {
     background-color: #000;
     background: radial-gradient(circle, rgb(0, 0, 0) 50%, rgba(1, 32, 60, 0.79) 100%);
     background-size: 200% 200%; 
-    animation: neon-background 9s ease-in-out infinite; 
+    animation: neon 9s ease-in-out infinite; 
 }
 
 body {
@@ -15,7 +15,7 @@ body {
 .top {
     background: linear-gradient(135deg, rgba(10, 117, 166, 0.8), rgba(0, 0, 0, 0.8));
     background-size: 200% 200%; 
-    animation: neon-background 3s ease-in-out infinite; 
+    animation: neon 3s ease-in-out infinite; 
 
     background-color: skyblue;
     width: 100%;
@@ -86,7 +86,7 @@ button:hover {
     color: aliceblue;
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(255, 0, 0, 0.5)), radial-gradient(circle, rgba(7, 146, 253, 0.8), rgba(0, 0, 0, 0.5));
     background-size: 200% 200%; 
-    animation: neon-background 5s ease-in-out infinite; 
+    animation: neon 5s ease-in-out infinite; 
 }
 
 .name {
@@ -115,7 +115,7 @@ button:hover {
     color: aliceblue;
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(255, 69, 0, 0.5)), radial-gradient(circle, rgba(7, 146, 253, 0.8), rgba(0, 0, 0, 0.5));
     background-size: 200% 200%;
-    animation: neon-background 5s ease-in-out infinite;
+    animation: neon 5s ease-in-out infinite;
 }
 
 .hobby{
@@ -128,7 +128,7 @@ button:hover {
     color: aliceblue;
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(255, 69, 0, 0.5)), radial-gradient(circle, rgba(7, 146, 253, 0.8), rgba(0, 0, 0, 0.5));
     background-size: 200% 200%; 
-    animation: neon-background 15s ease-in-out infinite;
+    animation: neon 15s ease-in-out infinite;
 }
 
 .aboutschool, .aboutcollege {
@@ -176,7 +176,7 @@ button:hover {
     color: aliceblue;
 }
 
-@keyframes neon-background {
+@keyframes neon {
     0% {
         background-position: 0% 0%;
     }
@@ -188,42 +188,3 @@ button:hover {
     }
 }
 
-@media (max-width: 1200px) {
-    .name {
-        font-size: 8vw;
-    }
-
-    .who, .hobby, .qualification {
-        font-size: 50px;
-    }
-}
-
-@media (max-width: 992px) {
-    .name {
-        font-size: 7vw;
-    }
-
-    .who, .hobby, .qualification {
-        font-size: 40px;
-    }
-}
-
-@media (max-width: 768px) {
-    .name {
-        font-size: 6vw;
-    }
-
-    .who, .hobby, .qualification {
-        font-size: 30px;
-    }
-}
-
-@media (max-width: 576px) {
-    .name {
-        font-size: 5vw;
-    }
-
-    .who, .hobby, .qualification {
-        font-size: 25px;
-    }
-}
