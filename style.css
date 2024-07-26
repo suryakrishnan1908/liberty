@@ -16,6 +16,7 @@ height: 100vh;
 }
 
 button{
+    flex-wrap: wrap;
     height: 25px;
     background-color: rgb(0, 126, 237);
     border: 0cap;
@@ -28,6 +29,7 @@ button{
 
 .intro{
     display: flex;
+    flex-wrap: wrap;
     margin: 5%;
     height: 300px;
     align-items: center;
@@ -37,6 +39,7 @@ button{
 
 .name{
     display: flex;
+    flex-wrap: wrap;
     height: 200px;
     font-size: 90px;
     align-items: center;
@@ -63,12 +66,14 @@ button{
     margin: 1%;
     font-size: 20px;
     display: flex;
+    flex-wrap: wrap;
     text-align: justify;
     padding: 3%;
 }
 
 .hobby{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -77,7 +82,8 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .edit{
-
+display: flex;
+flex-wrap: wrap;
     font-size: 30px;
     display: flex;
     text-align: justify;
@@ -103,6 +109,7 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
     font-size: 25PX;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
 }
@@ -110,6 +117,7 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 .aboutschool{
     margin-top: -20px;;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     font-size: 25px;
@@ -121,6 +129,7 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 .college{
    font-size: 20PX;
    display: flex;
+   flex-wrap: wrap;
    justify-content: center;
    text-align: justify;
 
@@ -132,6 +141,7 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
      padding-left: 2%;
     font-size: 25px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     text-align: justify;
